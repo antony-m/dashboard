@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$USER_HOME$/WebstormProjects/dashboard/bower.json" charset="UTF-8" />
     <file url="file://$USER_HOME$/WebstormProjects/dashboard/bower_components/amcharts/.bower.json" charset="UTF-8" />
     <file url="file://$USER_HOME$/WebstormProjects/dashboard/bower_components/amcharts/bower.json" charset="UTF-8" />
     <file url="file://$USER_HOME$/WebstormProjects/dashboard/bower_components/amcharts/package.json" charset="UTF-8" />
@@ -8,6 +9,7 @@
     <file url="file://$USER_HOME$/WebstormProjects/dashboard/bower_components/angular-gridster/bower.json" charset="UTF-8" />
     <file url="file://$USER_HOME$/WebstormProjects/dashboard/bower_components/angular-gridster/src/angular-gridster.js" charset="UTF-8" />
     <file url="file://$USER_HOME$/WebstormProjects/dashboard/dist/scripts/app-f5aab960.js" charset="UTF-8" />
+    <file url="file://$USER_HOME$/WebstormProjects/dashboard/package.json" charset="UTF-8" />
     <file url="file://$USER_HOME$/WebstormProjects/dashboard/src/app/charts/charts.controller.js" charset="UTF-8" />
     <file url="file://$USER_HOME$/WebstormProjects/dashboard/src/app/charts/charts.html" charset="UTF-8" />
     <file url="file://$USER_HOME$/WebstormProjects/dashboard/src/app/components/navbar/navbar.html" charset="UTF-8" />
