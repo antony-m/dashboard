@@ -1,0 +1,81 @@
+
+<div class="container" ng-controller="ChartsCtrl">
+
+  <div ng-include="'app/components/navbar/navbar.html'"></div>
+
+  <p>this is chart</p>
+  <div gridster="gridsterOpts" class="gridsterCont">
+    <ul>
+      <li gridster-item="standardItem1">
+        <h3>CPU usage {{cloudType}}</h3>
+
+        <div id="chart1div" class="chart"></div>
+      </li>
+      <li gridster-item="standardItem2">
+        <h3>Visits {{cloudType}}</h3>
+        <div id="chart2div" class="chart"></div>
+      </li>
+      <li gridster-item="standardItem3">
+        <h3>Widget 3</h3>
+      </li>
+      <li gridster-item="standardItem4">
+        <h3>Widget 4</h3>
+      </li>
+    </ul>
+  </div>
+
+  <!--<div class="simpleDemo row">-->
+  <!--<div class="row">-->
+  <!--<div ng-repeat="(listName, list) in models.lists" class="col-md-6">-->
+  <!--<div class="panel panel-info">-->
+  <!--<div class="panel-heading">-->
+  <!--<h3 class="panel-title">List {{listName}}</h3>-->
+  <!--</div>-->
+  <!--<div class="panel-body">-->
+  <!--&lt;!&ndash; The dnd-list directive allows to drop elements into it.-->
+  <!--The dropped data will be added to the referenced list &ndash;&gt;-->
+  <!--<ul dnd-list="list">-->
+  <!--&lt;!&ndash; The dnd-draggable directive makes an element draggable and will-->
+  <!--transfer the object that was assigned to it. If an element was-->
+  <!--dragged away, you have to remove it from the original list-->
+  <!--yourself using the dnd-moved attribute &ndash;&gt;-->
+  <!--<li ng-repeat="item in list"-->
+  <!--dnd-draggable="item"-->
+  <!--dnd-moved="list.splice($index, 1)"-->
+  <!--dnd-effect-allowed="move"-->
+  <!--dnd-selected="models.selected = item"-->
+  <!--ng-class="{'selected': models.selected === item}"-->
+  <!-->
+  <!--{{item.label}}-->
+  <!--</li>-->
+  <!--</ul>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+
+  <!--<div>-->
+
+  <!--</div>-->
+
+  <!--</div>-->
+
+  <!--<div class="col-md-6">-->
+  <!--<div class="panel panel-default">-->
+  <!--<div class="panel-heading">-->
+  <!--<h3 class="panel-title">Generated Model</h3>-->
+  <!--</div>-->
+  <!--<div class="panel-body">-->
+  <!--<pre class="code">{{modelAsJson}}</pre>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+
+
+  <!--</div>-->
+  <hr>
+
+  <div class="footer">
+    <p></p>
+  </div>
+
+</div>
